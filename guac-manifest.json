@@ -1,7 +1,7 @@
 {
     "guacamoleVersion" : "*",
-    "name"             : "Guacamole Branding Example",
-    "namespace"        : "guacamole-branding-example",
+    "name"             : "KCM Branding Example",
+    "namespace"        : "kcm-branding-example",
     
     "css" : [
         "css/0-font-raleway.css",
@@ -9,7 +9,12 @@
     ],
     
     "html" : [
-        "html/warning.html"
+        "html/warning.html",
+        "html/policy.html"
+    ],
+    
+    "js" : [
+        "js/alert.js"
     ],
     
     "resources" : {

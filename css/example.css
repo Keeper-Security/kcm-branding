@@ -35,7 +35,7 @@
     -moz-background-size:    5em 3em;
     -webkit-background-size: 5em 3em;
     -khtml-background-size:  5em 3em;
-    background-image: url('app/ext/guacamole-branding-example/resources/images/saturn/saturn.png');
+    background-image: url('app/ext/kcm-branding-example/resources/images/saturn/saturn.png');
 }
 
 /*
@@ -108,6 +108,17 @@ button.danger:hover, a.button.danger:hover {
 button.danger:active, a.button.danger:active {
     background: rgba(255,0,170,1.0);
     border: 1px solid rgba(255,95,0,1.0);
+}
+
+/*
+ * Replace the logo on the upper left
+ */
+.logo {
+    width: 145px;
+    height: 34px;
+    background: #262626 url(app/ext/kcm-branding-example/resources/images/saturn/saturn.png) no-repeat left/142px;
+    font-size: 0;
+    line-height: 0;
 }
 
 /*
