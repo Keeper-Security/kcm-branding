@@ -9,10 +9,10 @@
         "css/example.css"
     ],
 // The HTML files for warning and policy point to the corresponding files in the HTML folder
-    "html" : [
+//    "html" : [
 //       "html/warning.html",
 //       "html/policy.html"
-    ],
+//    ],
 // The JS Alert show an info pop up when the page is loaded. Uncomment this to enable the info pop up
 //    "js" : [
 //        "js/alert.js"
