@@ -6,20 +6,13 @@
         "css/example.css"
     ],
     "resources" : {
-        "resources/fonts/raleway/Raleway-Bold.otf"  : "application/x-font-opentype",
-        "resources/fonts/raleway/Raleway-Bold.ttf"  : "application/x-font-TrueType",
-        "resources/fonts/raleway/Raleway-Bold.woff" : "application/font-woff",
-        "resources/fonts/raleway/Raleway-BoldItalic.otf"  : "application/x-font-opentype",
-        "resources/fonts/raleway/Raleway-BoldItalic.ttf"  : "application/x-font-TrueType",
-        "resources/fonts/raleway/Raleway-BoldItalic.woff" : "application/font-woff",
-        "resources/fonts/raleway/Raleway-Italic.otf"  : "application/x-font-opentype",
-        "resources/fonts/raleway/Raleway-Italic.ttf"  : "application/x-font-TrueType",
-        "resources/fonts/raleway/Raleway-Italic.woff" : "application/font-woff",
-        "resources/fonts/raleway/Raleway-Regular.otf"  : "application/x-font-opentype",
-        "resources/fonts/raleway/Raleway-Regular.ttf"  : "application/x-font-TrueType",
-        "resources/fonts/raleway/Raleway-Regular.woff" : "application/font-woff",
         "resources/images/logo.png" : "image/png"
     },
+    
+    "largeIcon" : "resources/images/large.png",
+
+    "smallIcon" : "resources/images/small.png",
+    
     "translations" : [
         "translations/en.json"
     ]
