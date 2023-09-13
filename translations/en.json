@@ -1,6 +1,5 @@
 {
     "APP": {
-// This is where you set the webpage title
         "NAME" : "Custom Title"
     }
 }
