@@ -1,23 +1,10 @@
 {
-// This section defines the version of guacamole to target. 'Name' is the internal name of the extension, it does not affect the webpage title displayed.
     "guacamoleVersion" : "*",
     "name"             : "Add Company Logo",
     "namespace"        : "kcm-branding-example",
-// The CSS section controls colors, fonts, and styles. example.css points to the logo file    
     "css" : [
-//        "css/0-font-raleway.css",
         "css/example.css"
     ],
-// The HTML files for warning and policy point to the corresponding files in the HTML folder
-//    "html" : [
-//       "html/warning.html",
-//       "html/policy.html"
-//    ],
-// The JS Alert show an info pop up when the page is loaded. Uncomment this to enable the info pop up
-//    "js" : [
-//        "js/alert.js"
-//    ],
-// Resources are pointers to items to be used. The last resource is the logo, saturn.png    
     "resources" : {
         "resources/fonts/raleway/Raleway-Bold.otf"  : "application/x-font-opentype",
         "resources/fonts/raleway/Raleway-Bold.ttf"  : "application/x-font-TrueType",
@@ -33,7 +20,6 @@
         "resources/fonts/raleway/Raleway-Regular.woff" : "application/font-woff",
         "resources/images/logo.png" : "image/png"
     },
-// The translations en.json file is where you set the display title for the webpage   
     "translations" : [
         "translations/en.json"
     ]
