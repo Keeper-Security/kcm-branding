@@ -5,11 +5,11 @@
 
 1. Download the zip file of this repository and extract it to a folder.
 2. Put your logo file as /resources/images/logo.png
-3. Open /translations/en.json and put your text for the title of the webpage (browser tab)   in place of "Custom Title"
+3. Open /translations/en.json and put your text for the title of the webpage (browser tab) in place of "Custom Title"
 4. (Optional) Put your favicon icons in /resources/images/ as small.png and large.png
 5. Select all of the folders and files and compress them into a zip file.
 6. Make sure view > file extensions is on, and change the file name and extension to kcm-branding.jar
-7. Trnasfer the kcm-branding.jar file to your KCM server into /etc/kcm-setup/
+7. Transfer the kcm-branding.jar file to your KCM server into /etc/kcm-setup/
 8. In your docker-compose.yml guacamole section, under environment add USE_DEFAULT_BRANDING: "N" and in volumes right below that add the following line
    - "/etc/kcm-setup/kcm-branding.jar:/etc/guacamole/extensions/kcm-branding.jar:ro"
 10. ./kcm-setup stop (required)
