@@ -3,7 +3,7 @@
 
 <sub>This is a fork of https://github.com/Keeper-Security/kcm-branding/tree/main</sub>
 
-1. Download the zip file and extract it to a folder.
+1. Download the zip file of this repository and extract it to a folder.
 2. Put your logo file as /resources/images/logo.png
 3. Open /translations/en.json and put your text for the title of the webpage (browser tab)   in place of "Custom Title"
 4. (Optional) Put your favicon icons in /resources/images/ as small.png and large.png
