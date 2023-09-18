@@ -5,7 +5,7 @@
 
 <sub>(The steps below are for docker installations of KCM)</sub>
 
-How to add my logo to KCM:
+How to add your logo to KCM:
 1. Download the zip file of this repository and extract it to a folder.
 2. Put your logo file as /resources/images/logo.png
 3. Open /translations/en.json and put your text for the title of the webpage (browser tab) in place of "Custom Title"
