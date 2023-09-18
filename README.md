@@ -1,7 +1,7 @@
 # Custom Logo for Keeper Connection Manager
 ## Simple Custom Branding Example
 
-^This is a fork of https://github.com/Keeper-Security/kcm-branding/tree/main^
+<sub>This is a fork of https://github.com/Keeper-Security/kcm-branding/tree/main</sub>
 
 1. Download the zip file and extract it to a folder.
 2. Put your logo file as /resources/images/logo.png
