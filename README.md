@@ -17,7 +17,7 @@ How to add your logo to KCM:
    
    &nbsp;-&nbsp; "/etc/kcm-setup/kcm-branding.jar:/etc/guacamole/extensions/kcm-branding.jar:ro"
 10. Run the command sudo ./kcm-setup stop (required)
-11. Run the command sudo ./kcm-setup apply and when prompted press Y for yes.
+11. Run the command sudo ./kcm-setup upgrade and when prompted press Y for yes.
 
 Now you should see your logo on the KCM web page. To refresh the favicons do a hard reload with Ctrl + F5.
 
