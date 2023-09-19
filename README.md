@@ -21,6 +21,8 @@ How to add your logo to KCM:
 
 Now you should see your logo on the KCM web page. To refresh the favicons do a hard reload with Ctrl + F5.
 
+Additional Information:
+
 This repo contains an example of customizing the user interface of the Keeper Connection Manager product.
 
 This directory structure provides an example of how to apply custom branding
