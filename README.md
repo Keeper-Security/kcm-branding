@@ -11,11 +11,12 @@ How to add your logo to KCM:
 3. Open /translations/en.json and put your text for the title of the webpage (browser tab) in place of "Custom Title"
 4. (Optional) Put your favicon icons in /resources/images/ as small.png and large.png
 5. From inside the kcm-add-logo-1 folder, select all of the folders and files and compress them into a new zip file (add to archive).
-6. Make sure that view > file extensions is on, and change your zip file name and extension to kcm-branding.jar
+6. Make sure that view > file extensions is on (Windows), and change your zip file name and extension to kcm-branding.jar
 7. Transfer the kcm-branding.jar file to your KCM server into /etc/kcm-setup/
 8. In your docker-compose.yml guacamole section, under environment add USE_DEFAULT_BRANDING: "N" and in volumes right below that add the following line:
    
    &nbsp;-&nbsp; "/etc/kcm-setup/kcm-branding.jar:/etc/guacamole/extensions/kcm-branding.jar:ro"
+
 10. Run the command sudo ./kcm-setup stop (required)
 11. Run the command sudo ./kcm-setup upgrade and when prompted press Y for yes.
 
