@@ -1,5 +1,5 @@
-# Custom Logo for Keeper Connection Manager
-## Simple Custom Branding Example
+# Add Custom Logo for Keeper Connection Manager
+## Simple Logo Branding Example
 
 <sub>This is a fork of https://github.com/Keeper-Security/kcm-branding/tree/main</sub>
 
