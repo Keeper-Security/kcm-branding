@@ -8,7 +8,7 @@
 How to add your logo to KCM:
 1. Download the zip file of this repository and extract everything to a folder.
 2. Put your logo file as /resources/images/logo.png
-3. Open /translations/en.json and put your text for the title of the webpage (browser tab) in place of "Custom Title"
+3. Open /translations/en.json and put your text for the title of the webpage in place of "Custom Title"
 4. (Optional) Put your favicon icons in /resources/images/ as small.png and large.png
 5. From inside the kcm-add-logo-1 folder, select all of the folders and files and compress them into a new zip file (add to archive).
 6. Make sure that view > file extensions is ON. Change your zip file name and extension to kcm-branding.jar
