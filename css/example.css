@@ -1,26 +1,53 @@
-/**
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
- */
-
 /*
- * Set up the logo used at the top of the login dialog box, including sizing it
- * appropriately and pulling in the custom image.
+ * Guacamole Dark Theme (2019).
+ * 
+ * CC BY - Creative Commons Attribution
  */
+html,
+body {
+    color: #ececec;
+    background-color: #333333;
+}
+pre {
+    color: #ececec;
+    background-color: #222;
+    border: 1px solid #555;
+}
+
+a[href]:visited {
+    color: #884;
+}
+a[href] {
+    color: #080;
+}
+
+div.location,
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=password],
+textarea {
+    background-color: #2c2c2c;
+    color: #bbb;
+}
+.preferences .header {
+	background-color: gray !important;
+}
+.settings.connections .connection-list::before {
+background-color: gray !important;
+}
+/* Login */
+.list-item.ng-scope:hover {
+background-color: gray !important;
+}
+div.login-ui {
+    color: #ececec;
+    background-color: #333333;
+}
+.login-ui .login-fields .labeled-field input:focus {
+    background-color: #222222;
+    color: #eee;
+}
 .login-ui .login-dialog .logo {
     width: 5em;
     height: 3em;
@@ -30,14 +57,237 @@
     -khtml-background-size:  5em 3em;
     background-image: url('app/ext/kcm-branding-example/resources/images/logo.png');
 }
+/* Home */
+.recent-connections .connection:hover {
+    background-color: #607830;
+}
 
+.menu-dropdown .menu-contents {
+    background-color: #222222;
+}
+.menu-dropdown .menu-contents li a {
+    color: #eee;
+}
+.menu-dropdown .menu-contents li a:hover {
+    background-color: #607830;
+}
+
+.list-item.selected {
+    background: #84af2c
+}
+.list-item:not(.selected) .caption:hover {
+    background-color: #607830;
+}
+.list-item .name {
+    color: #ddd;
+}
+
+/* Menu */
+.menu {
+    color: #ececec;
+    background-color: #333333;
+}
+
+.clipboard,
+.clipboard-service-target {
+    background-color: #2c2c2c;
+    color: #bbb;
+}
+
+/* Connection */
 /*
- * Replace the logo on the upper left
- */
+    .notification {
+        background-color: #2c2c2c;
+        color: #ececec;
+    }
+    */
+#connection-warning {
+    background-color: #a8a800;
+}
+
+.transfer-manager {
+    background-color: #2c2c2c;
+}
+.transfer.error {
+    background-color: #a80000;
+}
+
+/* Settings */
+.page-tabs .page-list li a[href],
+.section-tabs li a {
+    color: #ddd;
+}
+.page-tabs .page-list li a[href]:hover,
+.section-tabs li a:hover {
+    background-color: #607830;
+}
+.page-tabs .page-list li a[href]:visited {
+    color: #fff;
+}
+
+.settings table.session-list tr.session:hover {
+    background-color: #84af2c;
+}
+
+.location-chooser .dropdown {
+    background-color: #222222;
+}
+
+
+.user a,
+.user-group a,
+.connection a,
+.connection-group a {
+    color: #ddd;
+}
+.user a:hover,
+.user-group a:hover,
+.connection a:hover,
+.connection-group a:hover {
+    color: #ddd;
+}
+.user a:visited,
+.user-group a:visited,
+.connection a:visited,
+.connection-group a:visited {
+    color: #fff;
+}
+
+.manage-user .notice.read-only {
+    background-color: #291800;
+}
+
+#filesystem-menu .header.breadcrumbs .breadcrumb:hover {
+    background-color: #607830;
+}
+
+#guac-menu #zoom-out:hover,
+#guac-menu #zoom-in:hover {
+    background-color: #607830;
+}
 .logo {
     width: 145px;
     height: 34px;
     background: #262626 url(app/ext/kcm-branding-example/resources/images/logo.png) no-repeat left/142px;
     font-size: 0;
     line-height: 0;
+}
+/* Official Apache Guacamole org website */
+.chapter div.toc,
+.appendix div.toc {
+    background-color: #2c2c2c;
+    border-color: #555;
+}
+
+div.important {
+    background-color: #2a2a00;
+}
+
+.replaceable {
+    color: #a8a8ff;
+}
+
+.table-contents td,
+.table-contents th,
+.informaltable td,
+.informaltable th {
+    border-color: #555;
+}
+
+.table-contents th,
+.informaltable th {
+    background-color: #2c2c2c;
+}
+
+div#footer {
+    background-color: #222222;
+}
+
+
+/* dark mode style */
+.user-menu .menu-dropdown .menu-contents li a {
+    color:#FFF;
+}
+.view>.header:first-child h2, .connection-list-ui>.header:first-child h2, #guac-menu .header:first-child h2 {
+    background: #333;
+}
+.view .connection-list-ui>.header h2 {
+	background:#333;
+	color:#FFF;
+}
+.header .filter {
+    background: #333;
+}
+.recent-connections .connection .caption .name {
+	background:#333;
+	color:#FFF;
+}
+.recent-connections .connection .caption {
+	background:#333;
+	color:#FFF;
+}
+.recent-connections .connection .thumbnail {
+	background: #333;
+}
+.menu-body {
+	background:#333;
+}
+.connection-select-menu .menu-dropdown .menu-contents {
+    background: #333;
+}
+.login-ui div.login-dialog, .login-ui.continuation div.login-dialog {
+    background: #333;
+    color: #FFF;
+}
+.menu-dropdown .menu-title {
+	background: #333;
+}
+#guac-menu #devices .device.filesystem {
+	background: #333;
+}
+.terminal-color-scheme-field select {
+	background: #333;
+}
+element.style {
+	background: #333;
+}
+.header .filter input {
+    background: #333;
+}
+.page-tabs .page-list ul, .section-tabs ul {
+    background: #333;
+}
+.filter .search-string {
+    background-color: #333;
+}
+.settings table.session-list .select-session {
+    background: #333;
+    color: #FFF;
+}
+table.sorted th.sortable {
+    background: #333;
+    color: #FFF;
+}
+table.sorted td {
+    background: #333;
+    color: #FFF;
+}
+table.sorted th.sortable {
+    background: #333;
+    color: #FFF;
+}
+.settings.user-groups table.user-group-list, .settings.user-groups table.user-group-list td.user-group-name, .settings.user-groups table.user-group-list th.user-group-name {
+    background: #333;
+    color: #FFF;
+}
+.settings.connectionHistory .history-list td[translate*="TEXT_HISTORY_DURATION"] {
+    background: #333;
+}
+table.sorted th, table.sorted td  {
+    background: #333;
+    color: #FFF;
+}
+.settings.users table.user-list tr.user td.last-active:not(:empty) {
+    background: #333;
+    color: #FFF;
 }
